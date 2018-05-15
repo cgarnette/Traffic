@@ -21,6 +21,15 @@ Use the following script to get started. (mapsKey is Bing Maps API key)
 ```
 # This will return a tuple with the latitude and longitude for the address passed as a parameter.
 
+# mapsKey=''
+# googleAPiKey=''
+mapsKey = input('Please input your Bing Maps API Key Here: \n')
+googleApiKey = input('Please input your Google API Key Here: \n')
+
+#state = ''
+#city = ''
+#street = ''
+
 t = Traffic(mapsKey, googleApiKey)
 coords = t.getAddress(state, city, street)
 
