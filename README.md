@@ -1,5 +1,7 @@
 # Traffic
 
+This is a small project done to demonstrate and simplify the usage of both the Bing Maps API and Google Maps API integrated with python.
+
 ## Prerequisites
 
 1. requests
