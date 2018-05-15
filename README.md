@@ -7,6 +7,7 @@
 ## Installation
 
 Download TrafficInfo.py
+
 pip install requests
 
 ## Getting Started
@@ -23,7 +24,7 @@ coords = t.getAddress(state, city, street)
 
 # This will return a dictionary with a nested dictionary. i.e. {Key: {Key: Value, Key: Value}} where the outer key is the incident number and the inner keys are either "Type" or "Severity".
 
-startIncidents = t.getIncidents(start)
+startIncidents = t.getIncidents(coords)
 
 # This following portion will convert the address into a format that can be understood by the Google Maps API.
 
