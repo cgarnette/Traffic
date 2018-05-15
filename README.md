@@ -23,9 +23,6 @@ Use the following script to get started. (mapsKey is Bing Maps API key)
 
 # mapsKey=''
 # googleAPiKey=''
-mapsKey = input('Please input your Bing Maps API Key Here: \n')
-googleApiKey = input('Please input your Google API Key Here: \n')
-
 #state = ''
 #city = ''
 #street = ''
