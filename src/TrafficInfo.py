@@ -10,14 +10,6 @@ class Traffic(object):
 
 	dir_path = os.path.dirname(os.path.realpath(__file__))
 
-##I Want this to output the severity, type, and location of an incident
-
-##I will give a certain area. I want it to check that area for any incidents (2, 4).
-######the purpose of this is just to see if normal conditions are affecting Uber prices
-
-#Next I will give it the entire DC area and check for incidents (2, 4, 7, 11)
-######Same purpose as above, but less specific to certain areas. I will want to save the locations of these incidents
-
 #Also document severity just in case.
 
 
@@ -150,9 +142,6 @@ class Traffic(object):
 
 
 
-#key = 'AiM0oSivEbqBK4wxK_qCeFPqn0Y5PCdiTwjsdAXKBaq-VHBeRzpcuPIJogLFXwJB'
-#t = Traffic(key)
-
 #state = 'DC'
 #street = '1111 Constitution Ave NW' #'1940 9th St NW'
 #city = 'Washington'
@@ -168,4 +157,3 @@ class Traffic(object):
 
 
 # store file with coordinates, time(military), type of incident, severity, day of week, date
-# for uber store either coordinates or address, time(military), cost x, cost pool, cost xl, day of week, date
